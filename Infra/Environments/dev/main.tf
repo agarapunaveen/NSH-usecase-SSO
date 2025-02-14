@@ -35,6 +35,3 @@ module "lamda" {
   attach_basic_execution = module.iam.attach_basic_execution
 }
 
-module "SSO" {
-  source = "../../Modules/SSO"
-}
